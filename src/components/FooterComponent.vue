@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <h3>Darinel Cigarroa De Los Santos &copy;  {{ new Date().getFullYear() }}</h3>
+    <h3>
+      Darinel Cigarroa De Los Santos &copy; {{ new Date().getFullYear() }}
+    </h3>
   </footer>
 </template>
 
@@ -13,14 +15,15 @@ export default {
 <style scoped>
 footer {
   position: fixed;
-  bottom: 0;
+  height: 50px;
   width: 100%;
-  background-color: #38A3A5;
-  padding: 10px;
+  bottom: 0;
+  background-color: #38a3a5;
   text-align: center;
 }
 footer h3 {
   color: #000000;
+  line-height: 50px;
   font-size: 1rem;
 }
 </style>

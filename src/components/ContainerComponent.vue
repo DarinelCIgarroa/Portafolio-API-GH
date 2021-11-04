@@ -48,6 +48,9 @@ export default {
 <style scoped>
 .container {
   text-align: center;
+  height: auto;
+  padding: 20px;
+  margin: 20px auto 60px auto;
   box-shadow: 1px 1px 4px black;
 }
 .cards-item {
